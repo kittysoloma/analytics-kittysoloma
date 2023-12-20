@@ -1,0 +1,37 @@
+.about-kittysoloma {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: space-between;
+}
+
+.about-kittysoloma__logo a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.about-kittysoloma__logo img {
+  width: 100%;
+}
+
+.about-kittysoloma__textable-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.about-kittysoloma__social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.about-kittysoloma__social-media a {
+  scale: 1.2;
+  opacity: 0.5;
+}

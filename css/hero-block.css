@@ -1,0 +1,35 @@
+.hero-block .content-block {
+  height: min(calc(100vh - 220px), 640px);
+  display: flex;
+  background-image: url(../images/hero/hero-image-1350x900-squooshed.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.hero-block__textable-area {
+  align-self: flex-end;
+}
+
+.hero-block__textable-area h1 {
+  font-size: 92px;
+  color: var(--main-white-color);
+}
+
+.hero-block__description {
+  color: var(--main-white-color);
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+@media screen and (max-width: 480px) {
+  .hero-block__textable-area h1 {
+    font-size: 72px;
+  }
+
+  .hero-block__description {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
