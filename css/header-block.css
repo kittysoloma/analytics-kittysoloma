@@ -11,7 +11,25 @@
   align-items: center;
 }
 
-.header .header__logo img {
+.header .left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .kittysoloma-header__logo {
+  width: 140px;
+}
+
+.header .usaid-header__logo {
+  width: 140px;
+}
+
+.header .kittysoloma-header__logo img {
+  width: 100%;
+}
+
+.header .usaid-header__logo img {
   width: 100%;
 }
 

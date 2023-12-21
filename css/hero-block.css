@@ -8,11 +8,11 @@
 }
 
 .hero-block__textable-area {
-  align-self: flex-end;
+  /* align-self: flex-end; */
 }
 
 .hero-block__textable-area h1 {
-  font-size: 92px;
+  font-size: 56px;
   color: var(--main-white-color);
 }
 
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 480px) {
   .hero-block__textable-area h1 {
-    font-size: 72px;
+    font-size: 32px;
   }
 
   .hero-block__description {
