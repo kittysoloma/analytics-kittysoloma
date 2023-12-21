@@ -1,14 +1,10 @@
 .hero-block .content-block {
   height: min(calc(100vh - 220px), 640px);
   display: flex;
-  background-image: url(../images/hero/hero-image-1.jpg);
+  background-image: url(../images/hero/hero-image-squooshed.jpg);
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
-}
-
-.hero-block__textable-area {
-  /* align-self: flex-end; */
 }
 
 .hero-block__textable-area h1 {
