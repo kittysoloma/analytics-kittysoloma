@@ -35,3 +35,10 @@
   scale: 1.2;
   opacity: 0.5;
 }
+
+.about-kittysoloma__social-media .linkpeak-icon {
+  width: 18px;
+  height: 18px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
