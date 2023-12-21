@@ -1,23 +1,21 @@
 .footer {
-  overflow: auto;
   max-width: var(--max-width-px);
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 40px auto;
 }
 
 .footer .content-block {
+  padding: calc(var(--default-content-padding) / 2) var(--default-content-padding);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 100px;
 }
 
 .footer .left-side {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
 }
 
 .footer .kittysoloma-footer__logo {
@@ -36,64 +34,55 @@
   width: 100%;
 }
 
-
 .footer .footer__menu {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  flex-direction: row;
+  gap: 24px;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .footer .footer__menu a {
   text-decoration: underline;
-  text-transform: lowercase;
 }
 
 @media screen and (max-width: 767px) {
   .footer .content-block {
-    padding: calc(var(--default-content-padding) / 2) var(--default-content-padding);
-    flex-wrap: wrap;
+    padding: calc(var(--default-content-padding) / 2) calc(var(--default-content-padding) / 2);
   }
 
   .footer .footer__menu {
+    display: flex;
+    flex-direction: column;
     gap: 8px;
-  }
-
-  .footer .center-side {
-    order: 3;
-    width: 100%;
-    margin-top: 24px;
-  }
-
-  .footer .center-side p {
-    width: fit-content;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .footer {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .footer .content-block {
     padding: calc(var(--default-content-padding) / 4) calc(var(--default-content-padding) / 2);
-    margin-bottom: 60px;
+    padding-left: 8px;
   }
 
-  .footer .footer__logo {
-    width: 70%;
+  .footer .kittysoloma-footer__logo {
+    width: 100px;
+  }
+  
+  .footer .usaid-footer__logo {
+    width: 100px;
   }
 
-  .footer .center-side {
-    font-size: 14px;
-    line-height: 16px;
+  .footer .left-side {
+    margin: 0 auto;
+    gap: 30px;
   }
 
   .footer .footer__menu {
+    display: none;
+    /* display: flex;
+    flex-direction: column;
     gap: 6px;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 16px; */
   }
 }

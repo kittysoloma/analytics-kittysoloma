@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
 }
 
 .header .kittysoloma-header__logo {
@@ -46,6 +47,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .header .content-block {
+    padding: calc(var(--default-content-padding) / 2) calc(var(--default-content-padding) / 2);
+  }
+
   .header .header__menu {
     display: flex;
     flex-direction: column;
@@ -56,17 +61,28 @@
 @media screen and (max-width: 479px) {
   .header .content-block {
     padding: calc(var(--default-content-padding) / 4) calc(var(--default-content-padding) / 2);
+    padding-left: 8px;
   }
 
-  .header .header__logo {
-    width: 70%;
+  .header .kittysoloma-header__logo {
+    width: 100px;
+  }
+  
+  .header .usaid-header__logo {
+    width: 100px;
+  }
+
+  .header .left-side {
+    margin: 0 auto;
+    gap: 30px;
   }
 
   .header .header__menu {
-    display: flex;
+    display: none;
+    /* display: flex;
     flex-direction: column;
     gap: 6px;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 16px; */
   }
 }

@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-#introduction .greenbook-download-button {
+.introduction-block .greenbook-download-button {
   margin-top: 10px;
   box-sizing: border-box;
   background: #FFD2FD;
