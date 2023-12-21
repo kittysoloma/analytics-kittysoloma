@@ -25,11 +25,6 @@
   cursor: pointer;
 }
 
-.greenbook-download-button img {
-  width: 25px;
-  height: 25px;
-}
-
 @media screen and (max-width: 479px) {
   .introduction-block__description {
     font-size: 22px;
