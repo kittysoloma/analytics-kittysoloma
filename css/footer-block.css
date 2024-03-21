@@ -1,6 +1,7 @@
 .footer {
   max-width: var(--max-width-px);
   margin: 40px auto 0;
+  overflow: auto;
 }
 
 .footer .content-block {
