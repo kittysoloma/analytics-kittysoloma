@@ -1,6 +1,6 @@
 .footer {
   max-width: var(--max-width-px);
-  margin: 40px auto;
+  margin: 40px auto 0;
 }
 
 .footer .content-block {
@@ -9,6 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .footer .left-side {
