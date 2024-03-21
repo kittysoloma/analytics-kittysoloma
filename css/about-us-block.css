@@ -29,15 +29,25 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
+  align-items: center;
 }
 
 .about-kittysoloma__social-media a {
-  scale: 1.2;
+  scale: 1.5;
   opacity: 0.5;
 }
 
-.about-kittysoloma__social-media .linkpeak-icon {
-  width: 18px;
+.about-kittysoloma__social-media .twitter-link {
+  scale: 1.7;
+}
+
+.about-kittysoloma__social-media .clixby-link {
+  margin-top: 4px;
+  scale: unset;
+}
+
+.about-kittysoloma__social-media .clixby-icon {
+  width: 80px;
   height: 18px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
