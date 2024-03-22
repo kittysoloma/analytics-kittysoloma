@@ -3,15 +3,21 @@
   line-height: 34px;
 }
 
+.introduction-block__download-buttons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .introduction-block__download-button {
-  margin: 0 auto;
-  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.introduction-block .greenbook-download-button {
+.introduction-block .book-download-button {
   margin-top: 15px;
   box-sizing: border-box;
   background: #FFD2FD;
@@ -25,7 +31,7 @@
   cursor: pointer;
 }
 
-.greenbook-download-button img {
+.book-download-button img {
   width: 25px;
   height: 25px;
 }
